@@ -76,6 +76,7 @@ public class SoundExecutor {
     @ToString
     public static class SoundWrapper {
         private final AtomicLong soundId = new AtomicLong();
+
         private volatile Sound sound;
     }
 }
